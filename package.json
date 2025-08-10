@@ -2,7 +2,8 @@
   "name": "gemini-proxy",
   "type": "module",
   "engines": {
-    "node": "20.x"
+    "node": "20.x",
+    "start": "node api/generate.js"
   },
   "scripts": {
     "start": "node api/generate.js"
