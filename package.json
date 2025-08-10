@@ -1,14 +1,12 @@
 {
   "name": "gemini-proxy",
   "type": "module",
+  "engines": { "node": "20.x" },
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/generate.js"
   },
   "dependencies": {
-    "@google/genai": "^1.13.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.2"
+    "@google/genai": "^1.13.0"
   },
   "private": true
 }

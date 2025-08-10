@@ -1,0 +1,11 @@
+# Arquivos de log e dependências
+node_modules/
+npm-debug.log
+
+# Arquivos de ambiente - NUNCA ENVIE SUAS SENHAS!
+.env
+.env.local
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
