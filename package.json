@@ -1,0 +1,23 @@
+{
+  "name": "my-gemini-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "@google/generative-ai": "^0.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vercel/node": "^5.3.13",
+    "typescript": "^5.9.2",
+    "vercel": "^46.0.2"
+  }
+}
