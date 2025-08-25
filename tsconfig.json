@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "commonjs",
+    "target": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
     "rootDir": "./api",
-    "outDir": "./dist" // Opcional, a Vercel lida bem com isso, mas é uma boa prática
+    "outDir": "./dist",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "sourceMap": true
   },
-  "include": ["api/**/*.ts"], // Garante que apenas os arquivos na pasta 'api' sejam compilados
+  "include": ["api/**/*.ts", "api/**/*.js"],
   "exclude": ["node_modules"]
 }
+
